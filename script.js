@@ -260,6 +260,47 @@ $('#tryAgainHistoryBtn').click(function () {
         });
 });
 
+
+// Joke --------------------------------
+
+function updateModalWithRandomJoke(data) {
+    // Get a random index
+    var randomIndex = Math.floor(Math.random() * data.length);
+    // Get the random country object
+    var randomJoke = data[randomIndex];
+    // Build the HTML for the country
+    var jokeHTML = '<h1>Question:</h1>' + '<h2>' + randomJoke.setup + '</h2>' + '<h1>Answer:</h1>' + '<h2>' + randomJoke.punchline + '</h2>';
+    // Update the modal content with the random country
+    $('#jokeContent').html(jokeHTML);
+}
+
+// When the modal is shown
+$('#JokeModal').on('shown.bs.modal', function () {
+    // Fetch the JSON data from the external file
+    fetch('json/jokes.json')
+        .then(response => response.json())
+        .then(data => {
+            // Update modal with a random country
+            updateModalWithRandomJoke(data);
+        })
+        .catch(error => {
+            console.error('Error fetching JSON:', error);
+        });
+});
+
+$('#tryAgainJokeBtn').click(function () {
+    // Fetch the JSON data from the external file
+    fetch('json/jokes.json')
+        .then(response => response.json())
+        .then(data => {
+            // Update modal with a new random country
+            updateModalWithRandomJoke(data);
+        })
+        .catch(error => {
+            console.error('Error fetching JSON:', error);
+        });
+});
+
 // Total Random
 
 var modalIds = ["#QuoteModal", "#CountryModal", "#SportModal", "#HabitModal", "#ChallengeModal", "#HistoryModal"];

@@ -50,6 +50,11 @@
                     <img src="images/history.png" class="img-fluid" alt="History" data-bs-toggle="modal" data-bs-target="#HistoryModal">
                     <h2 class="m-3">History</h2>
                 </div>
+
+                <div class="col-md-4 col-6 text-center">
+                    <img src="images/joke.png" class="img-fluid" alt="Joke" data-bs-toggle="modal" data-bs-target="#JokeModal">
+                    <h2 class="m-3">Joke</h2>
+                </div>
             </div>
         </main>
         <!-- Modal Total Random -->
@@ -195,6 +200,29 @@
                 </div>
             </div>
         </div>
+
+        <!-- Modal Joke -->
+
+        <div class="modal fade" id="JokeModal" tabindex="-1" aria-labelledby="JokeModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="JokeModalLabel">Random Joke</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="jokeContent">
+                            <!-- Quote content will be displayed here -->
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" id="tryAgainJokeBtn">Try Again</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
 
     </div>
