@@ -1,0 +1,150 @@
+{
+  "books": [
+    {
+      "title": "The Alchemist",
+      "summary": "The Alchemist follows a young Andalusian shepherd named Santiago in his journey to Egypt, after having a recurring dream of finding treasure there.",
+      "type": "Fiction"
+    },
+    {
+      "title": "To Kill a Mockingbird",
+      "summary": "To Kill a Mockingbird tells the story of a young girl named Scout Finch and her brother Jem growing up in Alabama during the 1930s.",
+      "type": "Fiction"
+    },
+    {
+      "title": "1984",
+      "summary": "1984 is a dystopian novel by George Orwell, where the totalitarian regime of Big Brother monitors and controls the lives of the citizens of Oceania.",
+      "type": "Fiction"
+    },
+    {
+      "title": "Harry Potter and the Philosopher's Stone",
+      "summary": "The first book in the Harry Potter series, it follows the story of a young wizard, Harry Potter, and his adventures at Hogwarts School of Witchcraft and Wizardry.",
+      "type": "Fantasy"
+    },
+    {
+      "title": "The Great Gatsby",
+      "summary": "Set in the summer of 1922, The Great Gatsby explores themes of decadence, idealism, resistance to change, social upheaval, and excess.",
+      "type": "Fiction"
+    },
+    {
+      "title": "Pride and Prejudice",
+      "summary": "Pride and Prejudice follows the character development of Elizabeth Bennet, who learns the error of making hasty judgments and comes to appreciate the difference between the superficial and the essential.",
+      "type": "Fiction"
+    },
+    {
+      "title": "The Catcher in the Rye",
+      "summary": "The novel details two days in the life of 16-year-old Holden Caulfield after he has been expelled from prep school.",
+      "type": "Fiction"
+    },
+    {
+      "title": "The Hobbit",
+      "summary": "The Hobbit follows the quest of home-loving hobbit Bilbo Baggins to win a share of the treasure guarded by the dragon, Smaug.",
+      "type": "Fantasy"
+    },
+    {
+      "title": "The Lord of the Rings",
+      "summary": "The Lord of the Rings is an epic high-fantasy novel by J.R.R. Tolkien, set in the fictional world of Middle-earth.",
+      "type": "Fantasy"
+    },
+    {
+      "title": "The Da Vinci Code",
+      "summary": "The Da Vinci Code follows a symbologist and a cryptologist who are trying to unravel a mystery involving a secret society and a hidden message in Leonardo da Vinci's works.",
+      "type": "Thriller"
+    },
+    {
+      "title": "The Hunger Games",
+      "summary": "Set in a dystopian future, The Hunger Games follows a young girl named Katniss Everdeen as she fights for survival in a televised death match.",
+      "type": "Science Fiction"
+    },
+    {
+      "title": "The Girl with the Dragon Tattoo",
+      "summary": "The Girl with the Dragon Tattoo is a psychological thriller novel by Swedish author Stieg Larsson, which follows the story of journalist Mikael Blomkvist and hacker Lisbeth Salander.",
+      "type": "Thriller"
+    },
+    {
+      "title": "Gone with the Wind",
+      "summary": "Set in the American South against the backdrop of the Civil War and Reconstruction, Gone with the Wind tells the story of Scarlett O'Hara.",
+      "type": "Historical Fiction"
+    },
+    {
+      "title": "The Kite Runner",
+      "summary": "The Kite Runner follows the story of Amir, a young boy from the Wazir Akbar Khan district of Kabul, who is tormented by the guilt of betraying his childhood friend Hassan.",
+      "type": "Historical Fiction"
+    },
+    {
+      "title": "The Road",
+      "summary": "The Road follows an unnamed father and son journeying along a road in a post-apocalyptic world.",
+      "type": "Science Fiction"
+    },
+    {
+      "title": "The Help",
+      "summary": "The Help is set in Jackson, Mississippi, during the early 1960s and focuses on the experiences of black maids working for white households.",
+      "type": "Historical Fiction"
+    },
+    {
+      "title": "The Book Thief",
+      "summary": "Narrated by Death, The Book Thief is set in Nazi Germany and follows the story of a young girl named Liesel Meminger, who steals books and shares them with others.",
+      "type": "Historical Fiction"
+    },
+    {
+      "title": "The Fault in Our Stars",
+      "summary": "The Fault in Our Stars follows the story of Hazel Grace Lancaster, a sixteen-year-old cancer patient who falls in love with Augustus Waters, a similarly afflicted teen from her cancer support group.",
+      "type": "Young Adult"
+    },
+    {
+      "title": "The Secret Life of Bees",
+      "summary": "The Secret Life of Bees is set in South Carolina in the 1960s and follows the story of Lily Owens, who runs away from home with her caregiver and friend, Rosaleen.",
+      "type": "Fiction"
+    },
+    {
+      "title": "The Martian",
+      "summary": "The Martian is a science fiction novel that tells the story of an astronaut stranded on Mars and his struggle for survival.",
+      "type": "Science Fiction"
+    },
+    {
+      "title": "The Goldfinch",
+      "summary": "The Goldfinch follows the life of Theo Decker after surviving a terrorist bombing at an art museum that kills his mother.",
+      "type": "Fiction"
+    },
+    {
+      "title": "Divergent",
+      "summary": "Divergent is set in a dystopian society divided into five factions, where the protagonist, Beatrice Prior, must choose to stay with her family or transfer to another faction.",
+      "type": "Science Fiction"
+    },
+    {
+      "title": "The Maze Runner",
+      "summary": "The Maze Runner follows the story of a group of teenage boys who wake up in a mysterious maze with no memory of their past.",
+      "type": "Science Fiction"
+    },
+    {
+      "title": "The Girl on the Train",
+      "summary": "The Girl on the Train follows the story of Rachel Watson, who becomes entangled in the investigation of a missing woman after witnessing something suspicious from her train window.",
+      "type": "Thriller"
+    },
+    {
+      "title": "A Game of Thrones",
+      "summary": "A Game of Thrones is the first novel in the A Song of Ice and Fire series by George R.R. Martin, which follows the power struggles among noble families as they vie for control of the Iron Throne of the Seven Kingdoms.",
+      "type": "Fantasy"
+    },
+    {
+      "title": "The Night Circus",
+      "summary": "The Night Circus is a fantasy novel that tells the story of a magical competition between two young illusionists, Celia and Marco, who are unknowingly pawns in a game played by their mentors.",
+      "type": "Fantasy"
+    },
+    {
+      "title": "The Help",
+      "summary": "The Help is set in Jackson, Mississippi, during the early 1960s and focuses on the experiences of black maids working for white households.",
+      "type": "Historical Fiction"
+    },
+    {
+      "title": "The Book Thief",
+      "summary": "Narrated by Death, The Book Thief is set in Nazi Germany and follows the story of a young girl named Liesel Meminger, who steals books and shares them with others.",
+      "type": "Historical Fiction"
+    },
+    {
+      "title": "The Fault in Our Stars",
+      "summary": "The Fault in Our Stars follows the story of Hazel Grace Lancaster, a sixteen-year-old cancer patient who falls in love with Augustus Waters, a similarly afflicted teen from her cancer support group.",
+      "type": "Young Adult"
+    }
+  ]
+}
+

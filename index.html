@@ -55,10 +55,21 @@
                     <img src="images/joke.png" class="img-fluid" alt="Joke" data-bs-toggle="modal" data-bs-target="#JokeModal">
                     <h2 class="m-3">Joke</h2>
                 </div>
+
+                <div class="col-md-4 col-6 text-center">
+                    <img src="images/book.png" class="img-fluid" alt="Book" data-bs-toggle="modal" data-bs-target="#BookModal">
+                    <h2 class="m-3">Book</h2>
+                </div>
+
+                <div class="col-md-4 col-6 text-center">
+                    <img src="images/song.png" class="img-fluid" alt="Song" data-bs-toggle="modal" data-bs-target="#SongModal">
+                    <h2 class="m-3">Song</h2>
+                </div>
             </div>
         </main>
-        <!-- Modal Total Random -->
-        <!-- <div class="modal fade" id="TotalRandomModal" tabindex="-1" aria-labelledby="TotalRandomModalLabel" aria-hidden="true">
+
+        <!---Modal Total Random -->
+        <div class="modal fade" id="TotalRandomModal" tabindex="-1" aria-labelledby="TotalRandomModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -66,15 +77,18 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        ...
+                        <div id="TotalRandomContent">
+                            <!-- Quote content will be displayed here -->
+                        </div>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary" id="tryAgainBtn">Try Again</button>
+                        <button type="button" class="btn btn-primary" id="tryAgainTotalRandomBtn">Try Again</button>
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
+
         <!-- Modal Quote -->
         <div class="modal fade" id="QuoteModal" tabindex="-1" aria-labelledby="QuoteModalLabel" aria-hidden="true">
             <div class="modal-dialog">
@@ -90,7 +104,7 @@
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary" id="tryAgainBtn">Try Again</button>
+                        <button type="button" class="btn btn-primary" id="tryAgainQuotesBtn">Try Again</button>
                     </div>
                 </div>
             </div>
@@ -222,6 +236,51 @@
                 </div>
             </div>
         </div>
+
+        <!-- Modal Book -->
+        
+        <div class="modal fade" id="BookModal" tabindex="-1" aria-labelledby="BookModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="BookModalLabel">Random Book</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="bookContent">
+                            <!-- Book content will be displayed here -->
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" id="tryAgainBookBtn">Try Again</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Song -->
+        
+        <div class="modal fade" id="SongModal" tabindex="-1" aria-labelledby="SongModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="SongModalLabel">Random Song</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="songContent">
+                            <!-- song content will be displayed here -->
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" id="tryAgainSongBtn">Try Again</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
 
 
