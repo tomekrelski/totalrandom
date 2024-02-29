@@ -5,8 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Total Random</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css"> <!-- Link to your external CSS file -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap">
+  
 </head>
 
 <body>
@@ -72,19 +75,24 @@
         <div class="modal fade" id="TotalRandomModal" tabindex="-1" aria-labelledby="TotalRandomModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
-                    <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="TotalRandomModalLabel">Total Random</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <div id="TotalRandomContent">
-                            <!-- Quote content will be displayed here -->
+                <div class="modal-header">
+                    <div class="container-fluid">
+                        <div class="row justify-content-center">
+                            <div class="col-12 text-center">
+                                <h1 class="modal-title fs-5" id="TotalRandomModalLabel">Total Random</h1>
+                            </div>
                         </div>
                     </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary" id="tryAgainTotalRandomBtn">Try Again</button>
+                </div>
+                <div class="modal-body">
+                    <div id="TotalRandomContent">
+                        <!-- Quote content will be displayed here -->
                     </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" id="tryAgainTotalRandomBtn">One More Time</button>
+                    <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
+                </div>
                 </div>
             </div>
         </div>
@@ -94,8 +102,13 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="QuoteModalLabel">Random Quote</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <div class="container-fluid">
+                            <div class="row justify-content-center">
+                                <div class="col-12 text-center">
+                                    <h1 class="modal-title fs-5" id="QuoteModalLabel">Random Quote</h1>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="modal-body">
                         <div id="quoteContent">
@@ -103,8 +116,8 @@
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary" id="tryAgainQuotesBtn">Try Again</button>
+                        <button type="button" class="btn btn-success" id="tryAgainQuotesBtn">One More Time</button>
+                        <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
@@ -115,8 +128,13 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="CountryModalLabel">Random Country</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <div class="container-fluid">
+                            <div class="row justify-content-center">
+                                <div class="col-12 text-center">
+                                    <h1 class="modal-title fs-5" id="CuntryModalLabel">Random Country</h1>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="modal-body">
                         <div id="countryContent">
@@ -124,8 +142,8 @@
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary" id="tryAgainCountryBtn">Try Again</button>
+                        <button type="button" class="btn btn-success" id="tryAgainCountryBtn">One More Time</button>
+                        <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
@@ -136,8 +154,13 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="SportModalLabel">Random Sport</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <div class="container-fluid">
+                            <div class="row justify-content-center">
+                                <div class="col-12 text-center">
+                                    <h1 class="modal-title fs-5" id="SportModalLabel">Random Sport</h1>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="modal-body">
                         <div id="sportContent">
@@ -145,8 +168,8 @@
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary" id="tryAgainSportBtn">Try Again</button>
+                        <button type="button" class="btn btn-success" id="tryAgainSportBtn">One More Time</button>
+                        <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
@@ -157,8 +180,13 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="HabitModalLabel">Random Habit</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <div class="container-fluid">
+                            <div class="row justify-content-center">
+                                <div class="col-12 text-center">
+                                    <h1 class="modal-title fs-5" id="HabitModalLabel">Random Habit</h1>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="modal-body">
                         <div id="habitContent">
@@ -166,8 +194,8 @@
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary" id="tryAgainHabitBtn">Try Again</button>
+                        <button type="button" class="btn btn-success" id="tryAgainHabitBtn">One More Time</button>
+                        <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
@@ -178,17 +206,22 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="ChallengeModalLabel">Random Challenge</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <div class="container-fluid">
+                            <div class="row justify-content-center">
+                                <div class="col-12 text-center">
+                                    <h1 class="modal-title fs-5" id="QuoteModalLabel">Random Challenge</h1>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="modal-body">
                         <div id="challengeContent">
-                            <!-- Quote content will be displayed here -->
+                            <!-- Challenge content will be displayed here -->
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary" id="tryAgainChallengeBtn">Try Again</button>
+                        <button type="button" class="btn btn-success" id="tryAgainChallengeBtn">One More Time</button>
+                        <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
@@ -199,17 +232,22 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="HistoryModalLabel">Random History Fact</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <div class="container-fluid">
+                            <div class="row justify-content-center">
+                                <div class="col-12 text-center">
+                                    <h1 class="modal-title fs-5" id="HistoryModalLabel">Random History</h1>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="modal-body">
                         <div id="historyContent">
-                            <!-- Quote content will be displayed here -->
+                            <!-- History content will be displayed here -->
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary" id="tryAgainHistoryBtn">Try Again</button>
+                        <button type="button" class="btn btn-success" id="tryAgainHistoryBtn">One More Time</button>
+                        <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
@@ -221,8 +259,13 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="JokeModalLabel">Random Joke</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <div class="container-fluid">
+                            <div class="row justify-content-center">
+                                <div class="col-12 text-center">
+                                    <h1 class="modal-title fs-5" id="JokeModalLabel">Random Joke</h1>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="modal-body">
                         <div id="jokeContent">
@@ -230,8 +273,8 @@
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary" id="tryAgainJokeBtn">Try Again</button>
+                        <button type="button" class="btn btn-success" id="tryAgainJokeBtn">One More Time</button>
+                        <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
@@ -243,8 +286,13 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="BookModalLabel">Random Book</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <div class="container-fluid">
+                            <div class="row justify-content-center">
+                                <div class="col-12 text-center">
+                                    <h1 class="modal-title fs-5" id="BookModalLabel">Random Book</h1>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="modal-body">
                         <div id="bookContent">
@@ -252,8 +300,8 @@
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary" id="tryAgainBookBtn">Try Again</button>
+                        <button type="button" class="btn btn-success" id="tryAgainBookBtn">One More Time</button>
+                        <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
@@ -265,8 +313,13 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="SongModalLabel">Random Song</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <div class="container-fluid">
+                            <div class="row justify-content-center">
+                                <div class="col-12 text-center">
+                                    <h1 class="modal-title fs-5" id="SongModalLabel">Random Song</h1>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="modal-body">
                         <div id="songContent">
@@ -274,8 +327,8 @@
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary" id="tryAgainSongBtn">Try Again</button>
+                        <button type="button" class="btn btn-success" id="tryAgainSongBtn">One More Time</button>
+                        <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>

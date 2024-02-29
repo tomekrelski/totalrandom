@@ -1,0 +1,236 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+
+/* quote */
+
+.quote-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.quote {
+    margin-bottom: 10px;
+}
+
+.quote-text {
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.quote-author {
+    font-style: italic;
+    color: #888;
+}
+
+
+/* country */
+
+.country-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.country-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.country-name {
+    font-size: 18px;
+    color: #333;
+}
+
+
+/* sport */
+
+.sport-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.sport-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sport-name {
+    font-size: 18px;
+    color: #333;
+}
+
+
+/* habit */
+
+.habit-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.habit-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.habit-name {
+    font-size: 18px;
+    color: #333;
+}
+
+.habit-description {
+    font-size: 16px;
+    color: #555;
+}
+
+
+/* challenge  */
+
+.challenge-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.challenge-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.challenge-name {
+    font-size: 18px;
+    color: #333;
+}
+
+.skills-required,
+.challenge-area {
+    font-size: 16px;
+    color: #555;
+}
+
+
+/* History */
+
+.history-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.history-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.history-fact {
+    font-size: 18px;
+    color: #333;
+}
+
+.history-era {
+    font-size: 16px;
+    color: #555;
+}
+
+
+/* Joke */
+
+.joke-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.joke-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.joke-text {
+    font-size: 18px;
+    color: #333;
+}
+
+
+/* Book */
+
+.book-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.book-title,
+.book-info,
+.book-summary {
+    margin-bottom: 10px;
+}
+
+.book-title h1,
+.book-info h1,
+.book-summary h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.book-title p,
+.book-info p,
+.book-summary p {
+    font-size: 18px;
+    color: #333;
+}
+
+
+/* Songs */
+
+.song-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.song-details,
+.song-link {
+    margin-bottom: 10px;
+}
+
+.song-details h1,
+.song-details h2,
+.song-details p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.song-details h1 {
+    font-weight: bold;
+}
+
+.song-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.song-link a:hover {
+    text-decoration: underline;
+}
